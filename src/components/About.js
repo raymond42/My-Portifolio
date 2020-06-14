@@ -57,10 +57,10 @@ export default class About extends Component {
                                         </div>
 
                                         <div className="social">
-                                            <a href="https://www.linkedin.com/in/gakwaya-raymond-45a4b4174/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://twitter.com/raymond_gakwaya" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://www.instagram.com/raymond_gakwaya/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-                                            <a href="mailto:raymond42.gr@gmial.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                                            <a href="https://www.linkedin.com/in/gakwaya-raymond-45a4b4174/" target="_blank"><i className="fa fa-linkedin"></i></a>
+                                            <a href="https://twitter.com/raymond_gakwaya" target="_blank"><i className="fa fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/raymond_gakwaya/?hl=en" target="_blank"><i className="fa fa-instagram"></i></a>
+                                            <a href="mailto:raymond42.gr@gmial.com" target="_blank"><i className="fa fa-envelope"></i></a>
                                         </div>
                                     </div>
                                 </div>
