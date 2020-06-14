@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import raycv from '../Assets/files/raycv.pdf'
 
 export default class Landingpage extends Component {
     render() {
@@ -12,7 +13,7 @@ export default class Landingpage extends Component {
                              <h1>Raymond Gakwaya</h1>
                              <h3>Full-stack Web Developer</h3>
                              <div className="cv-btn">
-                                 <a href="">Download CV</a>
+                                 <a href={raycv} download="Raymond's CV">Download CV</a>
                              </div>
                            </div>
                        </div>
