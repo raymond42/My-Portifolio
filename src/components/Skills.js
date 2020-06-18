@@ -92,7 +92,7 @@ export default class Skills extends Component {
                             </div>
                         </div>
                         <div className="img">
-                            <img src={rayworking} />
+                            <img alt ="rayimg" src={rayworking} />
                         </div>
                     </div>
                 </div>
