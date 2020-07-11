@@ -11,6 +11,8 @@ import erental from '../Assets/images/erental.png'
 import wesale from '../Assets/images/wesale.png'
 import portfolio from '../Assets/images/portfolio.png'
 import raysart from '../Assets/images/raysart.png'
+import GetInTouch from './GetInTouch';
+import ContactUs from './ContactUs';
 
 
 export class Main extends Component {
@@ -129,7 +131,11 @@ export class Main extends Component {
             <About />
             <Services />
             <Skills />
-            <Portfolio data={this.state.data} activeCategory={this.state.activeCategory}  onChange={this.onChange}/>
+            <Portfolio
+            data={this.state.data} 
+            activeCategory={this.state.activeCategory}
+            onChange={this.onChange}/>
+            <ContactUs />
           </div>
         );
     }
