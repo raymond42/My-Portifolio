@@ -583,3 +583,142 @@ header .navbar ul li a.active::before {
   text-decoration: none;
   text-align: center;
 }
+
+.message-text{
+  background-color: #ffffff;
+  padding: 40px 15px;
+}
+
+.message-text .text{
+  flex: 0 0 66.66%;
+  max-width: 66.66;
+}
+
+.message-text .text h2{
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+}
+
+.message-text .button{
+  flex: 0 0 33.33%;
+  max-width: 33.33;
+  text-align: right;
+}
+
+.message-text .button a{
+  border-radius: 4px;
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 12px 25px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .5s ease;
+  background-color: transparent;
+}
+
+.message-text .button a:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contact-us{
+  padding: 100px 0px;
+  background-color: #f5f8fd;
+}
+
+.contact-us .section-title h1::before{
+  left: 30%;
+}
+
+.contact-us .contact-form{
+  background-color: #ffffff;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 50px;
+  border: 1px solid #eeeeee;
+}
+
+.contact-us .contact-form .text{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.contact-us .contact-form .text h2{
+  font-size: 26px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+  padding: 0; 
+}
+
+.contact-us .contact-form .text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #838383;
+  margin: 0px;
+}
+
+.contact-us .contact-form  .space-between{
+  justify-content: space-between;
+}
+
+.contact-us .contact-form .col-6{
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+}
+
+.contact-us .contact-form .col-12{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact-us .contact-form .form-control{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #cde4da;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-us .contact-form textarea.form-control{
+  height: 140px;
+}
+
+.contact-us .contact-form .form-control::placeholder{
+  color: #838383;
+}
+
+.contact-us .contact-form .button{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact-us .contact-form .button a{
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .5s ease;
+  background-color: #08386e;
+  box-shadow: 0px 10px 15px #e8e8e8;
+}
+
+.contact-us .contact-form .button a:hover{
+  background-color: transparent;
+  color: #08386e;
+  border: 1px solid #08386e;
+}
