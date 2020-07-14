@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Services extends Component {
     render() {
         return (
-            <section className="services">
+            <section className="services" id="services">
                 <div className="container">
                     <div className="row">
                         <div className="section-title text-center">

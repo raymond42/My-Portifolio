@@ -2,12 +2,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <form
-      className="contact-us"
-      name="contactUs"
-      method="post"
-      data-netlify="true"
-    >
+    <form className="contact-us" name="contact" method="post" id="contact-us">
       <div className="container">
         <div className="row">
           <div className="section-title text-center">
@@ -27,7 +22,7 @@ export default function ContactUs() {
                 <input
                   type="text"
                   className="form-control"
-                  name="Name"
+                  name="name"
                   placeholder="Name"
                 />
               </div>
