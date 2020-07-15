@@ -2,7 +2,8 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <form className="contact-us" name="contact" method="post" id="contact-us">
+    <form name="contact" className="contact-us" method="post" id="contact-us">
+      <input type="hidden" name="form-name" value="contact" />
       <div className="container">
         <div className="row">
           <div className="section-title text-center">
@@ -37,12 +38,12 @@ export default function ContactUs() {
             </div>
             <div className="row">
               <div className="col-12">
-                <textarea className="form-control" placeholder="Your Message" />
+                <textarea name="message" className="form-control" placeholder="Your Message" />
               </div>
             </div>
             <div className="row text-right">
               <div className="button">
-                <a href="">Get In Touch</a>
+                <button type="submit">Get In Touch</button>
               </div>
             </div>
           </div>

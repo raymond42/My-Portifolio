@@ -46,8 +46,8 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <form
-      className="contact-us"
       name="contact"
+      className="contact-us"
       method="post"
       id="contact-us"
       netlify
@@ -88,6 +88,7 @@
             <div className="row">
               <div className="col-12">
                 <textarea
+                  name="message"
                   className="form-control"
                   placeholder="Your Message"
                 ></textarea>
@@ -95,7 +96,7 @@
             </div>
             <div className="row text-right">
               <div className="button">
-                <a href="">Get In Touch</a>
+                <button type="submit">Get In Touch</button>
               </div>
             </div>
           </div>
