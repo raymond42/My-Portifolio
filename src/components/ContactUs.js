@@ -38,12 +38,16 @@ export default function ContactUs() {
             </div>
             <div className="row">
               <div className="col-12">
-                <textarea name="message" className="form-control" placeholder="Your Message" />
+                <textarea
+                  name="message"
+                  className="form-control"
+                  placeholder="Your Message"
+                />
               </div>
             </div>
             <div className="row text-right">
               <div className="button">
-                <button type="submit">Get In Touch</button>
+                <button type="submit">Send</button>
               </div>
             </div>
           </div>

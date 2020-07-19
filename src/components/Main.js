@@ -11,7 +11,6 @@ import erental from "../Assets/images/erental.png";
 import wesale from "../Assets/images/wesale.png";
 import portfolio from "../Assets/images/portfolio.png";
 import raysart from "../Assets/images/raysart.png";
-import GetInTouch from "./GetInTouch";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 
@@ -95,7 +94,7 @@ export class Main extends Component {
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
           stack: "React Js",
-          link: "http://localhost:3000",
+          link: "https://raymondgakwaya.netlify.app/",
         },
         {
           id: 6,

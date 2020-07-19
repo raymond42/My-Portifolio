@@ -11,6 +11,7 @@ export class Navbar extends Component {
     this.state = {
       links: [
         { id: "about", link: "About" },
+        { id: "services", link: "Services" },
         { id: "portfolio", link: "Portfolio" },
         { id: "contact-us", link: "Contact Me" },
       ],
@@ -38,6 +39,9 @@ export class Navbar extends Component {
               <a className="logo" href="">
                 RG
               </a>
+            </div>
+            <div className="ham-burger">
+              <i className="fa fa-bars"></i>
             </div>
             <div className="navbar">
               <ul>

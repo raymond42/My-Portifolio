@@ -36,7 +36,7 @@ export class Portfolio extends Component {
         <div className="container">
           <div className="row">
             <div className="section-title text-center">
-              <h1>Some Of My Work</h1>
+              <h1>Sample Work</h1>
             </div>
           </div>
           <div className="row">
