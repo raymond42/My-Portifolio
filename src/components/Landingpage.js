@@ -1,5 +1,6 @@
 import React from "react";
 import raycv from "../Assets/files/raycv.pdf";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Landingpage() {
   return (
@@ -15,6 +16,16 @@ export default function Landingpage() {
                 <a href={raycv} download="Raymond's CV">
                   Download CV
                 </a>
+                <Link
+                  to="contact-us"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="hire-me"
+                >
+                  Hire me
+                </Link>
               </div>
             </div>
           </div>
