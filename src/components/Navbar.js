@@ -39,6 +39,7 @@ export class Navbar extends Component {
                 RG
               </a>
             </div>
+            <div class="ham-burger"><i class="fa fa-bars"></i></div>
             <div className="navbar">
               <ul>
                 {linksArray.map((link) => (
