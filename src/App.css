@@ -795,27 +795,41 @@ footer .social a:hover {
     font-size: 50px;
   }
 }
-
+header .brand-name a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  padding-left: 10px;
+}
 .ham-burger .fa {
-  font-size: 20px;
+  font-size: 30px;
   display: inline-block;
-  height: 27px;
-  width: 35px;
-  background-color: #ffffff;
-  color: #000000;
+  height: 35px;
+  width: 40px;
+  background-color: #000;
+  color: #fff;
   border-radius: 3px;
-  line-height: 27px;
+  line-height: 32px;
   text-align: center;
   cursor: pointer;
   display: none;
 }
+.skills .img img {
+  padding: 0;
+}
 .navbar .show {
   display: block;
 }
-
 @media (max-width: 767px) {
+  .home .home-content .block h1 {
+    font-size: 30px;
+  }
+  .home .home-content .block h3 {
+    font-size: 20px;
+  }
   header {
-    /* position: fixed; */
     border: none;
   }
   .ham-burger {
@@ -824,28 +838,102 @@ footer .social a:hover {
   .ham-burger .fa {
     display: inline-block;
   }
-
   .navbar {
     display: none;
-    border-top: 1px solid #eeeeee;
     position: absolute;
-    background-color: #000000;
+    background-color: #000;
     width: 100%;
-    left: 0px;
+    left: 0;
     top: 60px;
     padding: 15px;
   }
-
-  .navbar .show {
+  .show {
     display: block;
   }
-
   header .navbar ul li {
     display: block;
     margin-left: 0;
   }
-
   header .navbar ul li a {
     line-height: 42px;
+  }
+  .about .about-content .text {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .about .about-content .img,
+  .about .about-content .text {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .services .services-content {
+    padding: 10px;
+  }
+  .services .services-content .box,
+  .skills .skills-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .portfolio .portfolio-gallery .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .contact-us {
+    background-color: #fff;
+  }
+  .contact-us .row {
+    padding: 10px;
+  }
+  .contact-us .contact-form {
+    padding: 40px 20px;
+    background-color: #f5f8fd;
+  }
+  .contact-us .contact-form .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .home-content .block h1 {
+    font-size: 30px;
+  }
+  .home .home-content .block h3 {
+    font-size: 20px;
+  }
+  .home .home-content .block {
+    padding-left: 20px;
+  }
+  .portfolio {
+    background-color: #f5f8fd;
+  }
+  .portfolio .section-title h1 {
+    color: #000;
+  }
+  .portfolio .filter-buttons ul li {
+    color: #000;
+    font-weight: 600;
+  }
+  .about .about-content .text .info .list .p,
+  .portfolio .portfolio-gallery .item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .home .home-content .block .cv-btn a {
+    margin-left: 30px;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  .home .home-content .block .cv-btn .hire-me {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  .about .about-content .text .info {
+    display: block;
+    padding-top: 10px;
   }
 }
