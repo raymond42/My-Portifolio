@@ -14,6 +14,7 @@ export class Navbar extends Component {
         { id: "portfolio", link: "Portfolio" },
         { id: "contact-us", link: "Contact Me" },
       ],
+      openSideNav: false
     };
   }
 
@@ -31,13 +32,16 @@ export class Navbar extends Component {
     });
 
     return (
-      <header uk-sticky="show-on-up: true; animation: uk-animation-slide-top">
+      <header uk-sticky={`show-on-up: ${this.state.openSideNav ? false : true}; animation: uk-animation-slide-top`}>
         <div className="container">
           <div className="row">
             <div className="brand-name">
               <a className="logo" href="">
                 RG
               </a>
+            </div>
+            <div class="ham-burger" onClick={()=> this.setState({openSideNav: !this.state.openSideNav})}>
+              <i class="fa fa-bars"></i>
             </div>
             <div className="navbar">
               <ul>
@@ -50,6 +54,7 @@ export class Navbar extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}
+                      onClick={() => this.setState({openSideNav: false})}
                     >
                       {link.link}
                     </Link>
@@ -57,6 +62,29 @@ export class Navbar extends Component {
                 ))}
               </ul>
             </div>
+            {this.state.openSideNav && (
+            <div className="side-nav-modal">
+               <div className="close" onClick={() => this.setState({openSideNav: false})}>
+                <span>x</span>
+              </div>
+              <ul>
+                  {linksArray.map((link) => (
+                    <li key={link.id}>
+                      <Link
+                        activeClass="active"
+                        to={`${link.id}`}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        {link.link}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+            </div>
+            )}
           </div>
         </div>
       </header>

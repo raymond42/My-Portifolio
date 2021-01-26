@@ -45,7 +45,7 @@ export default class Skills extends Component {
                                     <h6>React Js</h6>
                                     <div className="skill-bar">
                                         <div className="skill-bar-in" style={{width: '72%'}}>
-                                            <span>72</span>
+                                            <span>80</span>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ export default class Skills extends Component {
                                     <h6>Node js</h6>
                                     <div className="skill-bar">
                                         <div className="skill-bar-in" style={{width: '80%'}}>
-                                            <span>80</span>
+                                            <span>70</span>
                                         </div>
                                     </div>
                                 </div>
@@ -66,26 +66,10 @@ export default class Skills extends Component {
                                     </div>
                                 </div>
                                 <div className="skill-box">
-                                    <h6>Python/Django/GraphQL</h6>
-                                    <div className="skill-bar">
-                                        <div className="skill-bar-in" style={{width: '60%'}}>
-                                            <span>60</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="skill-box">
                                     <h6>Software Testing</h6>
                                     <div className="skill-bar">
                                         <div className="skill-bar-in" style={{width: '62%'}}>
                                             <span>62</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="skill-box">
-                                    <h6>UX/UI Design</h6>
-                                    <div className="skill-bar">
-                                        <div className="skill-bar-in" style={{width: '70%'}}>
-                                            <span>70</span>
                                         </div>
                                     </div>
                                 </div>

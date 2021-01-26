@@ -11,7 +11,7 @@ import erental from "../Assets/images/erental.png";
 import wesale from "../Assets/images/wesale.png";
 import portfolio from "../Assets/images/portfolio.png";
 import raysart from "../Assets/images/raysart.png";
-import GetInTouch from "./GetInTouch";
+import APS from "../Assets/images/aps.jpg";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 
@@ -100,17 +100,17 @@ export class Main extends Component {
         {
           id: 6,
           type: "dovelopment",
-          category: "Web Design",
-          image: erental,
-          title: "E-Rental",
+          category: "Web Development",
+          image: APS,
+          title: "APS",
           description:
             "Authors Haven was an Andelan project which was for  creating\
                     a community of like minded authors to foster inspiration and\
                     innovation by leveraging the modern web.\
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
-          link:
-            "https://www.figma.com/file/Buw05KRbBBYzMj9ol8JwgKXE/E-Rental-View-all-houses-page",
+          stack: "Javascript PREN(Postgres, React, Express, Node)",
+          link: "#",
         },
         {
           id: 7,
@@ -136,7 +136,7 @@ export class Main extends Component {
   };
   render() {
     return (
-      <div>
+      <div style={{overflow: "hidden !important"}}>
         <Landingpage />
         <About />
         <Services />

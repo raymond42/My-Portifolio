@@ -25,8 +25,11 @@ export default class About extends Component {
                     <span>Rwanda</span>
                   </h6>
                   <p>
-                    I’m a tech enthusiast, full stack developer, passionate
-                    about programming and IT in general.
+                    I'm an experienced Software Developer with good background in
+                    delivering appropriate technology solutions in web development.
+                    Comprehensive knowledge of platform development, enterprise architecture,
+                    agile methodologies, and web-based applications. Innovative change agent with
+                    a unique mix of high-level technology direction and deep technical expertise
                   </p>
                   <div className="info">
                     <div className="list">
@@ -59,7 +62,7 @@ export default class About extends Component {
                     </div>
                     <div className="list">
                       <label>Freelance:</label>
-                      <p>Avaialable</p>
+                      <p>Available</p>
                     </div>
 
                     <div className="social">

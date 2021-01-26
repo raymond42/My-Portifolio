@@ -1,5 +1,5 @@
 import React from "react";
-import raycv from "../Assets/files/raycv.pdf";
+import raycv from "../Assets/files/cv.pdf";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Landingpage() {
