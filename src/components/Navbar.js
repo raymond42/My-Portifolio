@@ -18,13 +18,15 @@ export class Navbar extends Component {
     };
   }
 
-  onChange = (link) => {
-    this.setState({ activeLink: link });
-  };
+  // onChange = (link) => {
+  //   this.setState({ activeLink: link });
+  // };
 
   render() {
     const { links } = this.state;
+
     const linksArray = [{ id: "home", link: "Home" }];
+    
     links.map((link) => {
       if (linksArray.indexOf(link.link) < 0) {
         linksArray.push({ link: link.link, id: link.id });
@@ -40,8 +42,8 @@ export class Navbar extends Component {
                 RG
               </a>
             </div>
-            <div class="ham-burger" onClick={()=> this.setState({openSideNav: !this.state.openSideNav})}>
-              <i class="fa fa-bars"></i>
+            <div className="ham-burger" onClick={()=> this.setState({openSideNav: !this.state.openSideNav})}>
+              <i className="fa fa-bars"></i>
             </div>
             <div className="navbar">
               <ul>
@@ -52,7 +54,6 @@ export class Navbar extends Component {
                       to={`${link.id}`}
                       spy={true}
                       smooth={true}
-                      offset={-70}
                       duration={500}
                       onClick={() => this.setState({openSideNav: false})}
                     >
