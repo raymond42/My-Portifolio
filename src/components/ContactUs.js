@@ -2,7 +2,14 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <form name="contact" className="contact-us" method="post" id="contact-us">
+    <form
+      name="contact"
+      className="contact-us"
+      method="post"
+      id="contact-us"
+      data-netlify="true"
+      netlify
+    >
       <input type="hidden" name="form-name" value="contact" />
       <div className="container">
         <div className="row">
@@ -38,7 +45,11 @@ export default function ContactUs() {
             </div>
             <div className="row">
               <div className="col-12">
-                <textarea name="message" className="form-control" placeholder="Your Message" />
+                <textarea
+                  name="message"
+                  className="form-control"
+                  placeholder="Your Message"
+                />
               </div>
             </div>
             <div className="row text-right">
