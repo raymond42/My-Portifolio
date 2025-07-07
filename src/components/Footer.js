@@ -32,6 +32,9 @@ export default function Footer() {
               <a href="mailto:raymond42.gr@gmail.com" target="_blank">
                 <i className="fa fa-envelope"></i>
               </a>
+              <a href="https://github.com/raymond42" target="_blank">
+                <i className="fa fa-github"></i>
+              </a>
             </div>
           </div>
         </div>

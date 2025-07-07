@@ -25,13 +25,13 @@ export default class About extends Component {
                     <span>Rwanda</span>
                   </h6>
                   <p>
-                    Software Developer with proven experience delivering robust,
-                    scalable web and mobile applications. I specialize in
-                    full-stack development using the PREN and MERN stacks, with
-                    strong proficiency in TypeScript, Next.js, React Native,
-                    NestJS, and AWS services. I'm passionate about designing
-                    end-to-end solutions, driving innovation, and aligning
-                    technical execution with business goals in agile
+                    I'm a full-stack software Developer with proven experience
+                    delivering robust, scalable web and mobile applications. I
+                    specialize in full-stack development using the PREN and MERN
+                    stacks, with strong proficiency in TypeScript, Next.js,
+                    React Native, NestJS, and AWS services. I'm passionate about
+                    designing end-to-end solutions, driving innovation, and
+                    aligning technical execution with business goals in agile
                     environments. In my free time, I enjoy hanging out with
                     friends, playing basketball, and watching movies.
                   </p>
@@ -71,7 +71,7 @@ export default class About extends Component {
 
                     <div className="social">
                       <a
-                        href="https://www.linkedin.com/in/gakwaya-raymond-45a4b4174/"
+                        href="https://linkedin.com/in/raymond-gakwaya-45a4b4174"
                         target="_blank"
                       >
                         <i className="fa fa-linkedin"></i>
@@ -90,6 +90,9 @@ export default class About extends Component {
                       </a>
                       <a href="mailto:raymond42.gr@gmail.com" target="_blank">
                         <i className="fa fa-envelope"></i>
+                      </a>
+                      <a href="https://github.com/raymond42" target="_blank">
+                        <i className="fa fa-github"></i>
                       </a>
                     </div>
                   </div>

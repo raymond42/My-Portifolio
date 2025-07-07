@@ -11,7 +11,7 @@ export default function Landingpage() {
             <div className="block">
               <h6>Hello, My Name is</h6>
               <h1>Raymond Gakwaya</h1>
-              <h3>Full-stack Web Developer</h3>
+              <h3>A Full-Stack Software Developer.</h3>
               <div className="cv-btn">
                 <a href={raycv} download="Raymond's CV">
                   Download CV

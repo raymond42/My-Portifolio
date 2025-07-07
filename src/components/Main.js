@@ -80,7 +80,7 @@ export class Main extends Component {
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
           stack: "React Js",
-          link: "https://raymond-gakwaya-portifolio.netlify.app",
+          link: "https://raymondgakwaya.netlify.app/",
         },
         {
           id: 5,
