@@ -38,7 +38,7 @@ export default function Footer() {
       </footer>
       <section className="copyright">
         <div className="container">
-          <p>&copy; 2020 copyright all right reserved</p>
+          <p>&copy; 2025 copyright all right reserved</p>
         </div>
       </section>
     </div>

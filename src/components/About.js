@@ -25,11 +25,15 @@ export default class About extends Component {
                     <span>Rwanda</span>
                   </h6>
                   <p>
-                    I'm an experienced Software Developer with good background in
-                    delivering appropriate technology solutions in web development.
-                    Comprehensive knowledge of platform development, enterprise architecture,
-                    agile methodologies, and web-based applications. Innovative change agent with
-                    a unique mix of high-level technology direction and deep technical expertise
+                    Software Developer with proven experience delivering robust,
+                    scalable web and mobile applications. I specialize in
+                    full-stack development using the PREN and MERN stacks, with
+                    strong proficiency in TypeScript, Next.js, React Native,
+                    NestJS, and AWS services. I'm passionate about designing
+                    end-to-end solutions, driving innovation, and aligning
+                    technical execution with business goals in agile
+                    environments. In my free time, I enjoy hanging out with
+                    friends, playing basketball, and watching movies.
                   </p>
                   <div className="info">
                     <div className="list">

@@ -4,14 +4,13 @@ import About from "./About";
 import Services from "./Services";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
-import authors from "../Assets/images/authors.png";
-import automart from "../Assets/images/automart.png";
-import tekaccess from "../Assets/images/tekaccess.png";
-import erental from "../Assets/images/erental.png";
+import chitchat from "../Assets/images/chitchat.png";
+import rastus from "../Assets/images/rastus.png";
+import loyalty from "../Assets/images/loyalty.png";
 import wesale from "../Assets/images/wesale.png";
-import portfolio from "../Assets/images/portfolio.png";
+import portfolio from "../Assets/images/my-portifolio.png";
 import raysart from "../Assets/images/raysart.png";
-import APS from "../Assets/images/aps.jpg";
+import amplyfy from "../Assets/images/amplyfy.png";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 
@@ -24,8 +23,8 @@ export class Main extends Component {
           id: 1,
           type: "dovelopment",
           category: "Web Development",
-          image: authors,
-          title: "Authors Haven",
+          image: rastus,
+          title: "Rastus",
           description:
             "Authors Haven was an Andelan project which was for  creating\
                     a community of like minded authors to foster inspiration and\
@@ -33,30 +32,15 @@ export class Main extends Component {
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
           role: "Full-stack Developer, DevOps",
-          stack: "Javascript PREN(Postgres, React, Express, Node)",
-          link: "https://ah-coding-geeks-fr.herokuapp.com/",
+          stack: "Nextjs, NestJs, Express",
+          link: "https://rastus-prod-frontend.vercel.app/",
         },
         {
           id: 2,
           type: "dovelopment",
-          category: "Web Design",
-          image: wesale,
-          title: "Wesale",
-          description:
-            "Authors Haven was an Andelan project which was for  creating\
-                    a community of like minded authors to foster inspiration and\
-                    innovation by leveraging the modern web.\
-                    I worked as a full-stack developer and also\
-                    DevOps of this project.",
-          link:
-            "https://www.figma.com/file/70RIrUMLiVGDrGNG0HmgA2/E-COMMERCE-DESIGN?node-id=0%3A1",
-        },
-        {
-          id: 3,
-          type: "dovelopment",
           category: "Web Development",
-          image: tekaccess,
-          title: "Tekaccess",
+          image: chitchat,
+          title: "ChitChat Website",
           description:
             "Authors Haven was an Andelan project which was for  creating\
                     a community of like minded authors to foster inspiration and\
@@ -65,14 +49,15 @@ export class Main extends Component {
                     DevOps of this project.",
           role: "Full-stack Developer, DevOps",
           stack: "Javascript PREN(Postgres, React, Express, Node)",
-          link: "https://www.tekaccess.info",
+          link: "https://onchitchat.com/",
         },
+
         {
-          id: 4,
+          id: 3,
           type: "dovelopment",
           category: "Web Development",
-          image: automart,
-          title: "Automart",
+          image: loyalty,
+          title: "Loyalty",
           description:
             "Authors Haven was an Andelan project which was for  creating\
                     a community of like minded authors to foster inspiration and\
@@ -80,10 +65,10 @@ export class Main extends Component {
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
           stack: "Javascript PREN(Postgres, React, Express, Node)",
-          link: "https://raymond42.github.io/Auto-Mart/UI",
+          link: "https://my.zaployalty.com",
         },
         {
-          id: 5,
+          id: 4,
           type: "dovelopment",
           category: "Web Development",
           image: portfolio,
@@ -95,14 +80,14 @@ export class Main extends Component {
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
           stack: "React Js",
-          link: "http://localhost:3000",
+          link: "https://raymond-gakwaya-portifolio.netlify.app",
         },
         {
-          id: 6,
+          id: 5,
           type: "dovelopment",
           category: "Web Development",
-          image: APS,
-          title: "APS",
+          image: amplyfy,
+          title: "Amplyfy",
           description:
             "Authors Haven was an Andelan project which was for  creating\
                     a community of like minded authors to foster inspiration and\
@@ -110,7 +95,21 @@ export class Main extends Component {
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
           stack: "Javascript PREN(Postgres, React, Express, Node)",
-          link: "#",
+          link: "https://sad-lichterman-99bbdb.netlify.app/",
+        },
+        {
+          id: 6,
+          type: "dovelopment",
+          category: "Web Design",
+          image: wesale,
+          title: "Wesale",
+          description:
+            "Authors Haven was an Andelan project which was for  creating\
+                    a community of like minded authors to foster inspiration and\
+                    innovation by leveraging the modern web.\
+                    I worked as a full-stack developer and also\
+                    DevOps of this project.",
+          link: "https://www.figma.com/file/70RIrUMLiVGDrGNG0HmgA2/E-COMMERCE-DESIGN?node-id=0%3A1",
         },
         {
           id: 7,
@@ -124,8 +123,7 @@ export class Main extends Component {
                     innovation by leveraging the modern web.\
                     I worked as a full-stack developer and also\
                     DevOps of this project.",
-          link:
-            "https://www.figma.com/file/GDHhUIZckHl6QfqlpEZ052/Raysart?node-id=0%3A2",
+          link: "https://www.figma.com/file/GDHhUIZckHl6QfqlpEZ052/Raysart?node-id=0%3A2",
         },
       ],
       activeCategory: "all",
@@ -136,7 +134,7 @@ export class Main extends Component {
   };
   render() {
     return (
-      <div style={{overflow: "hidden !important"}}>
+      <div style={{ overflow: "hidden !important" }}>
         <Landingpage />
         <About />
         <Services />

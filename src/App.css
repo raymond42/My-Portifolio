@@ -119,11 +119,7 @@ header .navbar ul li a.active::before {
 .home {
   min-height: 100vh;
   background-color: #000000;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.664),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("./Assets/images/Website-Design-Background.png");
+  background-image: url("./Assets/images/hero-bg.png");
   background-size: cover;
   background-position: initial;
   padding: 15px;
@@ -451,11 +447,7 @@ header .navbar ul li a.active::before {
   position: relative;
 }
 
-.skills
-  .skills-content
-  .skill-box
-  .skill-bar
-  .skill-bar-in {
+.skills .skills-content .skill-box .skill-bar .skill-bar-in {
   background-color: #817f7f;
   position: absolute;
   left: 0;
@@ -463,12 +455,7 @@ header .navbar ul li a.active::before {
   height: 100%;
 }
 
-.skills
-  .skills-content
-  .skill-box
-  .skill-bar
-  .skill-bar-in
-  span {
+.skills .skills-content .skill-box .skill-bar .skill-bar-in span {
   color: #838383;
   font-size: 16px;
   font-weight: 400;

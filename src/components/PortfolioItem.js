@@ -8,7 +8,7 @@ export default function PortfolioItem(data) {
         <a href={data.data.link} target="_blank">
           <span className="fa fa-link"></span>
         </a>
-        <h4>{data.data.category}</h4>
+        <h4>{data.data.title}</h4>
       </div>
     </div>
   );
