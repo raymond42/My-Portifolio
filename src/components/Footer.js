@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="logo">RG</div>
             <div className="social">
               <a
-                href="https://www.linkedin.com/in/gakwaya-raymond-45a4b4174/"
+                href="https://linkedin.com/in/raymond-gakwaya-45a4b4174"
                 target="_blank"
               >
                 <i className="fa fa-linkedin"></i>
