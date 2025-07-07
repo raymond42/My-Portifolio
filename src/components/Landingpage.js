@@ -1,10 +1,21 @@
 import React from "react";
 import raycv from "../Assets/files/cv.pdf";
+import bgImage from "../Assets/images/hero-bg.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Landingpage() {
   return (
-    <section className="home">
+    <section
+      className="home"
+      style={{
+        minHeight: "100vh",
+        backgroundColor: "#000000",
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "initial",
+        padding: "15px",
+      }}
+    >
       <div className="container">
         <div className="row full-screen">
           <div className="home-content">

@@ -116,14 +116,14 @@ header .navbar ul li a.active::before {
 }
 
 /* landing page section */
-.home {
+/* .home {
   min-height: 100vh;
   background-color: #000000;
   background-image: url("./Assets/images/hero-bg.png");
   background-size: cover;
   background-position: initial;
   padding: 15px;
-}
+} */
 
 .home .full-screen {
   min-height: 100vh;
@@ -933,6 +933,15 @@ header .brand-name a {
   }
 }
 @media (max-width: 500px) {
+  .home {
+    padding: 0;
+  }
+  .home .home-content {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
   .home .home-content .block h1 {
     font-size: 30px;
   }
@@ -940,7 +949,13 @@ header .brand-name a {
     font-size: 20px;
   }
   .home .home-content .block {
-    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    flex: unset;
+    flex-flow: column;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 0;
   }
   .portfolio {
     background-color: #f5f8fd;
@@ -957,10 +972,7 @@ header .brand-name a {
     flex: 0 0 100%;
     max-width: 100%;
   }
-}
-@media (max-width: 480px) {
   .home .home-content .block .cv-btn a {
-    margin-left: 30px;
     justify-content: center;
     width: 100%;
     text-align: center;
@@ -968,8 +980,9 @@ header .brand-name a {
   .home .home-content .block .cv-btn .hire-me {
     text-align: center;
     margin-top: 20px;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
+    margin-left: 0px;
   }
   .about .about-content .text .info {
     display: block;
