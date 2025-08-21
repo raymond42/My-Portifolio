@@ -1,7 +1,7 @@
 import React from "react";
 import raycv from "../Assets/files/cv.pdf";
-import bgImage from "../Assets/images/hero-bg.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import bgImage from "../Assets/images/hero-bg.webp";
+import { Link } from "react-scroll";
 
 export default function Landingpage() {
   return (
