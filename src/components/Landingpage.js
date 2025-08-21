@@ -11,12 +11,13 @@ export default function Landingpage() {
         src={bgImage}
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover -z-20 bg-black/60"
+        loading="lazy"
       />
       {/* Overlay to darken the background */}
       <div className="absolute inset-0 bg-black/40 -z-10"></div>
 
       {/* Content */}
-      <div className="z-10 flex items-center justify-center sm:pr-72  h-full w-full">
+      <div className="z-10 flex items-center justify-center sm:justify-start  h-full w-full container">
         <div className="text-center sm:text-start px-4 flex flex-col gap-10">
           <div className="flex flex-col gap-3">
             <h6 className="text-2xl text-white md:text-xl mb-2 tracking-widest">
